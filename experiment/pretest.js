@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "Q1. Which of these class is superclass of every class in Java?"
+      question: "Q1. Which of these class is superclass of every class in Java?",
       answers: {
         a: " String class",
         b: "Object class",
@@ -91,11 +91,11 @@
     },
 
     {
-      question: "Q2. Which of these method of Object class can clone an object?"
+      question: "Q2. Which of these method of Object class can clone an object?",
       answers: {
         a: " Objectcopy()",
-        b: "copy()"
-        c: "Object clone()"
+        b: "copy()",
+        c: "Object clone()",
         d: "clone()"
 
       },
@@ -103,7 +103,7 @@
     },
 
     {
-      question: "Q3. Which of the following is an invalid declaration for the main method in java program?"
+      question: "Q3. Which of the following is an invalid declaration for the main method in java program?",
       answers: {
         a: "public static void main (String args[])",
         b: "public static strictfp void main (String args[])",
@@ -128,8 +128,8 @@
       question: "Q5. A Class in Java is like a ____.",
       answers: {
         a: " Prototype",
-        b: "Instruction Sheet"
-        c: " Blueprint"
+        b: "Instruction Sheet",
+        c: " Blueprint",
         d: "All the above"
       },
       correctAnswer: "d"
