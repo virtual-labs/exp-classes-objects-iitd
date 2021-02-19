@@ -106,8 +106,8 @@
       question: "Q3. The keyword used to create a new object in Java is ___.",
       answers: {
         a: "class",
-        b: "java"
-        c: "new"
+        b: "java",
+        c: "new",
         d: "Create"
       },
       correctAnswer: "c"
@@ -116,9 +116,9 @@
 	{
       question: "Q4. An object is created at __ time in Java.",
       answers: {
-        a: "Compile-time"
-        b: "Run time"
-        c: "Assembling time"
+        a: "Compile-time",
+        b: "Run time",
+        c: "Assembling time",
         d: "None of the above"         
       },
       correctAnswer: "b"
@@ -127,9 +127,9 @@
 	{
       question: "Q5. An object is created at __ time in Java.",
       answers: {
-        a: "Compile-time"
-        b: "Run time"
-        c: "Assembling time"
+        a: "Compile-time",
+        b: "Run time",
+        c: "Assembling time",
         d: "None of the above"
 	},
       correctAnswer: "a"
