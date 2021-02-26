@@ -21,7 +21,7 @@ method;
 #### A simple class example
 Suppose, Student is a class and student's name, roll number, age are its fields and info() is a method.
 ```sh
-class Student.
+class Student
 {
  String name;
 introllno;
@@ -37,7 +37,7 @@ In real world, we can understand object as a cell phone that has its properties 
 So we can say that object is a real world entity. Some real world objects are: ball, fan, car etc.
 #### Java Object Syntax
 ```sh
-classNamevariable_name = new className();
+className variable_name = new className();
 ```
 #### Example: Object creation
 ```sh
@@ -48,7 +48,7 @@ Student std = new Student();
 public class Student{      
 
 	 String name;
-	introllno;
+	int rollno;
 	int age;
 	
 	void info(){
