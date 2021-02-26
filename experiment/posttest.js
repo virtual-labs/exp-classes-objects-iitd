@@ -91,13 +91,13 @@
     },
 
     {
-      question: "Q2. Predict the output of following Java program?",
+      question: "Q2. Attribute of an object can include information about_____.",
 
       answers: {
-        a: "0",
-        b: "Garbage Value",
-        c: "Compiler Error",
-        d: " Runtime Error"
+        a: "Method",
+        b: "Behavior",
+        c: "State",
+        d: "Procedures"
       },
       correctAnswer: "c"
     },
