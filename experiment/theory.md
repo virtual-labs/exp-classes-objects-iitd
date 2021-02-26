@@ -47,7 +47,7 @@ Student std = new Student();
 ```sh
 public class Student{      
 
-	 String name;
+	String name;
 	int rollno;
 	int age;
 	
