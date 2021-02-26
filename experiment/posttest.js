@@ -125,12 +125,12 @@
     },
 	
 	{
-      question: "Q5. An object is created at __ time in Java.",
+      question: "Q5. Visualizing program components as objects is characteristics of which of the following language types?",
       answers: {
-        a: "Compile-time",
-        b: "Run time",
-        c: "Assembling time",
-        d: "None of the above"
+        a: "Object-oriented programming language",
+        b: "Machine language",
+        c: "Command line operating system",
+        d: "Procedural language"
 	},
       correctAnswer: "a"
     },
