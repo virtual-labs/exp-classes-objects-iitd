@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-The aim of the experiment is to demonstrate working of HTML code and create basic HTML pages using proper syntax.
+The aim of the experiment is to demonstrate working of classes and objects in java programming using proper syntax.
 
 <b>Name of Developer | <b> Prof. Ranjan Bose 
 :--|:--|
