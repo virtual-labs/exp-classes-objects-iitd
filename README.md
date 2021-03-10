@@ -3,7 +3,7 @@
 
 <b>Discipline | <b>Computer Science Engineering
 :--|:--|
-<b> Lab | <b> Basics of Java Programming
+<b> Lab | <b> Core Java Programming
 <b> Experiment|     <b> 2. Creating Classes and their Objects in Java 
 
 ### About the Experiment 
