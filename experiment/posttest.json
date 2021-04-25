@@ -1,1 +1,46 @@
-[{"question":"Q1. A Java class can contain___.","answers":{"a":"Variables","b":"Methods, Constructors","c":" Inner Classes (A class inside another class)","d":" All the above"},"correctAnswer":"d"},{"question":"Q2. Attribute of an object can include information about_____.","answers":{"a":"Method","b":"Behavior","c":"State","d":"Procedures"},"correctAnswer":"c"},{"question":"Q3. The keyword used to create a new object in Java is ___.","answers":{"a":"class","b":"java","c":"new","d":"Create"},"correctAnswer":"c"},{"question":"Q4. An object is created at __ time in Java.","answers":{"a":"Compile-time","b":"Run time","c":"Assembling time","d":"None of the above"},"correctAnswer":"b"},{"question":"Q5. Visualizing program components as objects is characteristics of which of the following language types?","answers":{"a":"Object-oriented programming language","b":"Machine language","c":"Command line operating system","d":"Procedural language"},"correctAnswer":"a"}]
+[{
+	"question": "Q1. A Java class can contain___.",
+	"answers": {
+		"a": "Variables",
+		"b": "Methods, Constructors",
+		"c": " Inner Classes (A class inside another class)",
+		"d": " All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q2. Attribute of an object can include information about_____.",
+	"answers": {
+		"a": "Method",
+		"b": "Behavior",
+		"c": "State",
+		"d": "Procedures"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q3. The keyword used to create a new object in Java is ___.",
+	"answers": {
+		"a": "class",
+		"b": "java",
+		"c": "new",
+		"d": "Create"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q4. An object is created at __ time in Java.",
+	"answers": {
+		"a": "Compile-time",
+		"b": "Run time",
+		"c": "Assembling time",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. Visualizing program components as objects is characteristics of which of the following language types?",
+	"answers": {
+		"a": "Object-oriented programming language",
+		"b": "Machine language",
+		"c": "Command line operating system",
+		"d": "Procedural language"
+	},
+	"correctAnswer": "a"
+}]
