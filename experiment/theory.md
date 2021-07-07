@@ -89,7 +89,7 @@ class Student{
 #### Output
 
 ```
-0 <BR>
+0
 null
 
 ```
@@ -127,7 +127,7 @@ class TestStudent1{
 #### Output
 
 ```
-1 <BR>
+1
 Kanishak
 
 ```
