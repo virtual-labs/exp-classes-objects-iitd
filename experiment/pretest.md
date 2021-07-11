@@ -1,16 +1,39 @@
 ## Pre test
 
-Q1. Which of these class is superclass of every class in Java?<br>
-A ArrayList class<br>
-**B  Abstract class**<br>
-C  Object class<br>
-D  String class<br>
+Q1. Predict the output of following Java program?<br>
 
-Q2. Which of these method of Object class can clone an object?<br>
-A  Objectcopy()<br>
-B  copy()<br>
-**C  Object clone()**<br>
-D  clone()<br>
+```
+class Test {
+  int i;
+} 
+class Main {
+   public static void main(String args[]) { 
+     Test t; 
+     System.out.println(t.i); 
+} 
+```
+A 0<br>
+B  garbage value<br>
+**C  compiler error**<br>
+D  runtime error<br>
+
+Q2. Predict the output of following Java program?<br>
+```
+class Test {
+  int i;
+} 
+class Main {
+  public static void main(String args[]) { 
+      Test t = new Test(); 
+      System.out.println(t.i);
+   } 
+}
+```
+
+**A  0**<br>
+B  garbage value<br>
+C compiler error<br>
+D  runtime error<br>
 
 Q3. In Java programming language, the code is placed inside ___.<br>
 A Classes, Interfaces<br>
