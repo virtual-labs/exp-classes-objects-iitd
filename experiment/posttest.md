@@ -1,10 +1,18 @@
 ## Post test
 
-Q1. A Java class can contain___.<br>
-A Variables<br>
-B  Methods, Constructors<br>
-C  Inner Classes (A class inside another class)<br>
-**D  All the above**<br>
+Q1. Choose the correct way of creating an object of the below class.<br>
+
+```
+class Table
+{
+  Table(){System.out.println("Table Created");}
+}
+```
+
+A Table t = new Table;<br>
+**B Table t = new Table();**<br>
+C Table() t = new Table();<br>
+D  None of the above<br>
 
 Q2. Predict the output of following Java program?
 class Test 
