@@ -40,7 +40,7 @@
 		"a": "The class name can start with only a letter or underscore or dollar sign",
 		"b": "The class name can contain numbers",
 		"c": "The class name can not start with a number",
-		"d": "All the above"
+		"d": "All the above",
 "
 	},
 	"correctAnswer": "d"
