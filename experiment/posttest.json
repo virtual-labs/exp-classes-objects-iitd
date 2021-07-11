@@ -35,12 +35,13 @@
 	},
 	"correctAnswer": "b"
 }, {
-	"question": "Q5. Visualizing program components as objects is characteristics of which of the following language types?",
+	"question": "Q5. Choose the correct statements about choosing a name for a class in Java.",
 	"answers": {
-		"a": "Object-oriented programming language",
-		"b": "Machine language",
-		"c": "Command line operating system",
-		"d": "Procedural language"
+		"a": "The class name can start with only a letter or underscore or dollar sign",
+		"b": "The class name can contain numbers",
+		"c": "The class name can not start with a number",
+		"d": "All the above"
+"
 	},
-	"correctAnswer": "a"
+	"correctAnswer": "d"
 }]
