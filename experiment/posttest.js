@@ -80,14 +80,14 @@
 
   const myQuestions = [
     {
-      question: "Q1. A Java class can contain___.",
+      question: "Q1. Choose the correct way of creating an object of the below class.",
       answers: {
-        a: "Variables",
-        b: "Methods, Constructors",
-        c: " Inner Classes (A class inside another class)",
-        d: " All the above"
+        a: "Table t = new Table;",
+        b: "Table t = new Table();",
+        c: "Table() t = new Table();",
+        d: "None of the above"
       },
-      correctAnswer: "d"
+      correctAnswer: "b"
     },
 
     {
