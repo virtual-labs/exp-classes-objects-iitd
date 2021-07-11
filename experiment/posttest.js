@@ -81,6 +81,10 @@
   const myQuestions = [
     {
       question: "Q1. Choose the correct way of creating an object of the below class.",
+	"class Table",
+	"{",
+  	"Table(){System.out.println('Table Created');}",
+	}",
       answers: {
         a: "Table t = new Table;",
         b: "Table t = new Table();",
