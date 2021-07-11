@@ -41,7 +41,6 @@
 		"b": "The class name can contain numbers",
 		"c": "The class name can not start with a number",
 		"d": "All the above"
-"
 	},
 	"correctAnswer": "d"
 }]
