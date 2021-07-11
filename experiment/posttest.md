@@ -43,16 +43,8 @@ A Compile-time<br>
 C Assembling time<br>
 D None of the above<br>
 
-Q5. Choose the correct syntax for declaring a Java class below.<br>
-**A class CLASSNAME
-{
-}**<br>
-B CLASSNAME class
-         {
-         }<br>
-C class CLASSNAME;
-         {
-         }<br>
-D Class CLASSNAME
-         {
-         }<br>
+Q5. Choose the correct statements about choosing a name for a class in Java.<br>
+A The class name can start with only a letter or underscore or dollar sign<br>
+B The class name can contain numbers<br>
+C The class name can not start with a number<br>
+**D All the above**<br>
