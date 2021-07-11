@@ -1,0 +1,47 @@
+[{
+	"question": "Q1. Choose the correct way of creating an object of the below class. class Table{Table(){System.out.println('Table Created');}}",
+
+	"answers": {
+		"a": "Table t = new Table;",
+		"b": "Table t = new Table();",
+		"c": "Table() t = new Table();",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q2. Attribute of an object can include information about_____.",
+	"answers": {
+		"a": "Method",
+		"b": "Behavior",
+		"c": "State",
+		"d": "Procedures"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q3. The keyword used to create a new object in Java is ___.",
+	"answers": {
+		"a": "class",
+		"b": "java",
+		"c": "new",
+		"d": "Create"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q4. An object is created at __ time in Java.",
+	"answers": {
+		"a": "Compile-time",
+		"b": "Run time",
+		"c": "Assembling time",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. Choose the correct statements about choosing a name for a class in Java.",
+	"answers": {
+		"a": "The class name can start with only a letter or underscore or dollar sign",
+		"b": "The class name can contain numbers",
+		"c": "The class name can not start with a number",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}]
