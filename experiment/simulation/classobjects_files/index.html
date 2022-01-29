@@ -72,7 +72,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -107,15 +107,15 @@ function FunctionBack1(){
 }
 
 function createclass(){
-	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Creating Class<br><br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</i>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Creating Class<br><br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// public class in java is a blueprint of objects which specifies properties and methods of objects belonging to that particular class.<br>}</i>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingfields(classname){
-	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Defining Fields<br><br>public class <span id='first'>"+classname+"</span>{<br><br>int <input type='text' id='varname' style='width:120px;height:24px;'> = <input type='text' id='varvalue' style='width:120px;height:24px;'> ;<br><br>}</i>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
+	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Defining Fields<br><br>public class <span id='first'>"+classname+"</span>{<br><br>int <input type='text' id='varname' style='width:120px;height:24px;'> = <input type='text' id='varvalue' style='width:120px;height:24px;'> ;<br>// Int keyword is a primitive data type. It is used to declare variables.<br>}</i>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
 }
 
 function creatingobjects(varname,varvalue,first){
-	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Creating Objects<br>public class <span id='sec'>"+first+"</span> {<br>int <span id='vname'>"+varname+"</span> = <span id='vvalue'>"+varvalue+"</span> ;<br>public static void main(String[] args){<br><span id='sec'>"+first+"</span> &nbsp;<input type='text' id='rvariable' style='width:120px;height:24px;'> = new <span id='sec'>"+first+"</span>();<br>}<br>}</i><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<i style='font-size:16px'>//Creating Objects<br>public class <span id='sec'>"+first+"</span> {<br>int <span id='vname'>"+varname+"</span> = <span id='vvalue'>"+varvalue+"</span> ;<br>public static void main(String[] args){<br><span id='sec'>"+first+"</span> &nbsp;<input type='text' id='rvariable' style='width:120px;height:24px;'> = new <span id='sec'>"+first+"</span>();<br> // Reference variable is used to point object/values.<br>}<br>}</i><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3' >Next</button></div>";
 }
 
 function printingoutput(rvariable,sec,vname,vvalue){

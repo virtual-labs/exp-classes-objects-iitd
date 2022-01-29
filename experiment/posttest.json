@@ -1,12 +1,13 @@
 [{
-	"question": "Q1. A Java class can contain___.",
+	"question": "Q1. Choose the correct way of creating an object of the below class. class Table{Table(){System.out.println('Table Created');}}",
+
 	"answers": {
-		"a": "Variables",
-		"b": "Methods, Constructors",
-		"c": " Inner Classes (A class inside another class)",
-		"d": " All the above"
+		"a": "Table t = new Table;",
+		"b": "Table t = new Table();",
+		"c": "Table() t = new Table();",
+		"d": "None of the above"
 	},
-	"correctAnswer": "d"
+	"correctAnswer": "b"
 }, {
 	"question": "Q2. Attribute of an object can include information about_____.",
 	"answers": {
@@ -35,12 +36,12 @@
 	},
 	"correctAnswer": "b"
 }, {
-	"question": "Q5. Visualizing program components as objects is characteristics of which of the following language types?",
+	"question": "Q5. Choose the correct statements about choosing a name for a class in Java.",
 	"answers": {
-		"a": "Object-oriented programming language",
-		"b": "Machine language",
-		"c": "Command line operating system",
-		"d": "Procedural language"
+		"a": "The class name can start with only a letter or underscore or dollar sign",
+		"b": "The class name can contain numbers",
+		"c": "The class name can not start with a number",
+		"d": "All the above"
 	},
-	"correctAnswer": "a"
+	"correctAnswer": "d"
 }]
